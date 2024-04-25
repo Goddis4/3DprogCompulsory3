@@ -152,9 +152,10 @@ int main()
 		glActiveTexture(GL_TEXTURE0);
 		glBindTexture(GL_TEXTURE_2D, texture);
 
-		glm::mat4 model = glm::mat4(1.0f);
-		model = glm::translate(model, thePlayer.position);
-		glUniformMatrix4fv(glGetUniformLocation(shaderProgram.ID, "camMatrix"), 1, GL_FALSE, glm::value_ptr(viewproj * model));
+		// Create model for player
+		glm::mat4 PlayerModel = glm::mat4(1.0f);
+		PlayerModel = glm::translate(PlayerModel, thePlayer.position);
+		glUniformMatrix4fv(glGetUniformLocation(shaderProgram.ID, "camMatrix"), 1, GL_FALSE, glm::value_ptr(viewproj * PlayerModel));
 		thePlayer.BindVAO();
 		thePlayer.GetVBO().Bind();
 		glDrawArrays(GL_TRIANGLES, 0, thePlayer.mVertecies.size());
@@ -163,6 +164,7 @@ int main()
 		// Collision for the player on plane
 		Ground.barycentricCoordinatesCalculation(thePlayer.position, Ground.planePoints[0], Ground.planePoints[1], Ground.planePoints[2], true);
 		Ground.barycentricCoordinatesCalculation(thePlayer.position, Ground.planePoints[2], Ground.planePoints[3], Ground.planePoints[0], true);
+
 		// Collision for the NPC on plane
 		Ground.barycentricCoordinatesCalculation(NPC.position, Ground.planePoints[0], Ground.planePoints[1], Ground.planePoints[2], true);
 		Ground.barycentricCoordinatesCalculation(NPC.position, Ground.planePoints[2], Ground.planePoints[3], Ground.planePoints[0], true);
