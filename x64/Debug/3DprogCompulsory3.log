@@ -1,0 +1,37 @@
+﻿  3DprogCompulsory3.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\3DprogCompulsory3.cpp(160,58): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\3DprogCompulsory3.cpp(197,55): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\3DprogCompulsory3.cpp(207,52): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\3DprogCompulsory3.cpp(217,53): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\3DprogCompulsory3.cpp(226,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Camera.cpp
+  Construct.cpp
+  LeastSquareMethod.cpp
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\LeastSquareMethod.cpp(15,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\LeastSquareMethod.cpp(90,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Player.cpp
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(124,24): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(124,24): warning C4244:         with
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(124,24): warning C4244:         [
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(124,24): warning C4244:             T=float
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(124,24): warning C4244:         ]
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(126,41): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(126,41): warning C4244:         with
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(126,41): warning C4244:         [
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(126,41): warning C4244:             T=float
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(126,41): warning C4244:         ]
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(127,22): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(127,22): warning C4244:         with
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(127,22): warning C4244:         [
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(127,22): warning C4244:             T=float
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Player.cpp(127,22): warning C4244:         ]
+  EBO.cpp
+  shaderClass.cpp
+  VAO.cpp
+C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\3DprogCompulsory3\Shaders\VAO.cpp(13,63): warning C4244: 'argument': conversion from 'GLsizeiptr' to 'GLsizei', possible loss of data
+  VBO.cpp
+  stb.cpp
+  Generating Code...
+  glad.c
+  3DprogCompulsory3.vcxproj -> C:\Users\gardo\Documents\GitHub\3DprogCompulsory3\x64\Debug\3DprogCompulsory3.exe
